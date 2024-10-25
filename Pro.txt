@@ -1,0 +1,145 @@
+Wht is this application
+why this application is developed
+End-to-end business flow of the application with terminolgy
+Roles and responsibility
+Challenges u faced while testing the application and how did you overcome
+teamsize
+Project duration
+Tools used while testing
+I used to verify 
+
+PK is a web based ecommerce application.Pk was developed to cater the growing demand for south 
+indian sweets to the world.
+Many tradional sweets and snacks are not easily available outside of their region and Pk brings to fill this 
+gap by providing a convinient online platform where the customer can  purchase these delicious sweets and 
+snacks from anywhere.
+Main functionalities are user resgistration and login, product search and adding it cart, checkout process and payment integration
+, order tracking and reviews and feedbacks of application we tested.
+
+
+I closely collaborated with the product owner, business analyst and developer to understand and analyse the 
+functional requirements and non functional requiremnets of the platform. I ensured that the test scenarios coverd the 
+all the user-stories and edge cases, particularly core funtionality such as product search, checkout process,
+payment integration and order tracking.
+
+I designed detailed test cases and created test plan incliding functional testing, UI/UX testing, compatability 
+testing and cross browser testing.
+
+When defects were identified, i logged them in defect tracking tool with detailed reproduction steps and relevant 
+screenshots or videos. I coordinated with the development team to priortise and resolved the defects based on
+severity. i performed retesting once defects were implemented.
+
+I conducted extensive regression testing after every new release to ensure that new feature didn't impacted
+ exixsting functionality.
+My testing included checking if user details were stored correctly after registration, verifying product data 
+(such as price and availability), and ensuring that transactions were accurately recorded.
+
+I worked closely with cross-functional teams, including developers, business analysts, and project managers, 
+to ensure that the testing process was aligned with the project timelines and goals.
+I participated in daily stand-ups, sprint planning, and retrospective meetings to provide updates on testing 
+progress and any potential blockers.
+
+Challenges
+
+Challenge: One of the challenges we faced was frequent defects in the payment gateway integration, which were often critical and
+ needed immediate resolution.
+ 
+Solution: To handle this, I established a direct communication channel with the development team responsible for the payment system.
+ We created a dedicated channel for faster feedback loops and worked closely on debugging and identifying the root cause of defects.
+ This collaboration led to quicker fixes and smoother testing cycles.
+
+
+Regression Testing:
+
+Challenge: As new features were added, the application grew more complex, and the regression suite became too large to execute within the 
+sprint timelines.
+Solution: We implemented a risk-based approach for regression testing. We identified critical features that had to be tested with every
+ release and selectively tested other parts of the system based on the changes introduced.
+
+designing testcases
+Defect logging
+regression testing
+SQL
+testing include if user deatials stored correctly after registation
+Crossfunctional teams
+participated in meetings
+
+Agile
+
+Agile methodology is an approach to software development and project management that emphasizes flexibility, collaboration, and customer
+ satisfaction. Unlike traditional project management methods, Agile focuses on delivering small, incremental changes rather than a single,
+ large release. This allows teams to adapt quickly to changes and feedback, which is crucial in dynamic environments.
+
+Priciples 
+1.Customer collaberations
+2.Working sw over comprehensive docs
+3.individuals and interactions over process and tools
+4.Responding to change over following process
+
+Scrum: 
+	A framework that organizes work into fixed-length iterations called sprints,
+ typically lasting 2-4 weeks. Scrum involves specific roles like Product Owner, Scrum Master, and Development Team.
+
+Roles:
+	Product Owner: Responsible for defining the features of the product and prioritizing the work based on business value.
+ They manage the *Product Backlog* , a list of tasks or features needed for the project.
+
+	Scrum Master: Ensures that the team adheres to Scrum practices and removes any obstacles that might impede the team’s progress.
+ They act as a facilitator for the team.
+
+	Development Team : A self-organizing group responsible for delivering the product increment at the end of each sprint. 
+The team typically includes developers, designers, testers, and others with the necessary skills.
+
+Artifacts :
+
+	Product Backlog : A dynamic list of all the features, enhancements, and bug fixes that need to be done for the product. 
+It is constantly refined by the Product Owner.
+
+	Sprint Backlog : A subset of the Product Backlog that the team commits to completing during a sprint. 
+It is created during the Sprint Planning meeting.
+
+	Increment : The sum of all the Product Backlog items completed during a sprint, plus the increments of all previous sprints.
+ At the end of each sprint, the Increment should be a usable and potentially shippable product.
+
+
+Events:
+
+	Sprint Planning : A meeting where the team selects items from the Product Backlog to work on during the sprint.
+The team defines a sprint goal and plans how to achieve it.
+
+        Daily Scrum (Stand-up) : A short, daily meeting where the team members share what they did yesterday, 
+what they plan to do today, and any blockers they’re facing.
+
+        Sprint Review : A meeting at the end of the sprint where the team demonstrates the completed work to stakeholders and gathers feedback.
+
+	Sprint Retrospective : A meeting after the Sprint Review where the team reflects on the sprint and discusses what went well, what didn’t,
+ and how they can improve in the next sprint.
+
+
+Sometimes a build that is deployed to production would have some critical error and it 
+would be rolled back. Now an emergency fix for the issue is released as a new patch and this 
+build is called a hotfix. 
+
+27/08/2024
+
+
+Severity
+- Based on defect complexity we will define the severity
+- In my previous project we were severity as :- Blocker/Showstopper
+					     :- Critical
+					     :- Major
+					     :- Minor
+blocker : whenerver there is blockage in executing any scenario to achieve the workflow we usually go with the blocker.
+	- in my application when i was testing i found multiple blocker issue  which was reported.
+	- when i was testing ORDER flow on ecommerce project i got 500 internal server issue.
+	
+
+Critical : Any defect which has high impact on the business like data loss & related to any revenue loss & user impact like dropping out
+	   due to this isseu.
+
+Major	 : Defect which is having impact on the functionality or perforamnce on the application but affects the some portion of business
+
+Minor : Defects like UI issues like alignment of the web elements that doesn't impact on workflow.
+
+
+Priority : It is define on how fast the defect need to be fix.
